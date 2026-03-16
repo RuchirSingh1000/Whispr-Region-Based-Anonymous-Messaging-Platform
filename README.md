@@ -1,103 +1,95 @@
-Whispr – Region-Based Anonymous Messaging Platform
+# Whispr – Region-Based Anonymous Messaging Platform
 
-Whispr is a location-based anonymous messaging platform that allows users to share posts and interact within localized communities such as colleges, neighborhoods, or organizations. The platform enables open discussion while maintaining user privacy and anonymity.
+Whispr is a **location-based anonymous messaging platform** that enables users to post and interact within **localized communities** such as colleges, neighborhoods, or organizations while maintaining privacy.
 
-Overview
+---
 
-Traditional social media platforms require identity disclosure, which often discourages honest discussions within smaller communities. Whispr solves this by enabling anonymous interaction within region-specific groups, allowing users to share thoughts, ask questions, or discuss local topics without revealing their identity.
+## Overview
 
-The platform focuses on community engagement, privacy, and scalable message distribution.
+Traditional social platforms require identity disclosure, which often discourages open discussion. **Whispr solves this by enabling anonymous communication within region-specific groups**, allowing users to share thoughts, ask questions, and engage in discussions without revealing their identity.
 
-Key Features
+The platform focuses on **community engagement, privacy, and scalable message distribution**.
 
-Anonymous posting within local communities
+---
 
-Region-based group creation (college, neighborhood, etc.)
+## Key Features
 
-Community message feeds for discussion and interaction
+- Anonymous posting within local communities
+- Region-based group creation (college, neighborhood, etc.)
+- Community message feeds for discussion and interaction
+- Privacy-focused architecture ensuring user anonymity
+- Moderation support for maintaining healthy discussions
+- Scalable backend for handling multiple groups and posts
 
-Privacy-focused design ensuring user anonymity
+---
 
-Moderation support for maintaining healthy discussions
+## Tech Stack
 
-Scalable backend architecture for handling multiple groups and posts
+**Frontend**
+- React.js
+- HTML5
+- CSS3
+- JavaScript
 
-Tech Stack
+**Backend**
+- Node.js
+- Express.js
+- REST APIs
 
-Frontend
+**Database**
+- MongoDB
 
-React.js
+**Tools**
+- Git & GitHub
+- Postman (API testing)
 
-HTML5 / CSS3
+---
 
-JavaScript
+## System Architecture
 
-Backend
+Whispr follows a **client-server architecture**:
 
-Node.js
+- **Frontend:** Handles user interaction, post creation, and feed display.
+- **Backend:** Manages APIs for posts, groups, and community feeds.
+- **Database:** Stores posts, group data, and anonymous identifiers.
 
-Express.js
+The system is designed to support **scalable feed retrieval and efficient group-based message distribution**.
 
-REST APIs
+---
 
-Database
+## Core Functionalities
 
-MongoDB
-
-Tools
-
-Git & GitHub
-
-API testing tools (Postman)
-
-System Architecture
-
-The platform follows a client–server architecture:
-
-Frontend: Handles user interaction, post creation, and feed display.
-
-Backend: Manages APIs for posts, groups, and community feeds.
-
-Database: Stores posts, group data, and anonymous identifiers.
-
-The system is designed to support scalable feed retrieval and efficient group-based message distribution.
-
-Core Functionalities
-Community Groups
-
+### Community Groups
 Users can create or join region-based groups to interact with others in the same locality.
 
-Anonymous Messaging
+### Anonymous Messaging
+Posts are shared anonymously while still allowing moderation to maintain safe discussions.
 
-Posts are published without revealing user identity while maintaining platform moderation.
-
-Message Feed
-
+### Message Feed
 Users can view posts within their community through a structured feed system.
 
-Future Improvements
+---
 
-Real-time messaging support
+## Future Improvements
 
-Content moderation using AI
+- Real-time messaging support
+- AI-based content moderation
+- Mobile application version
+- Cloud deployment for scalability
+- Push notifications for community updates
 
-Mobile application version
+---
 
-Cloud deployment with scalable infrastructure
+## Use Cases
 
-Push notifications for community activity
+- College community discussions
+- Neighborhood communication
+- Anonymous feedback platforms
+- Local information sharing
 
-Use Cases
+---
 
-College community discussions
+## Author
 
-Neighborhood communication
-
-Anonymous feedback platforms
-
-Local information sharing
-
-Author
-
-Ruchir Singh
+**Ruchir Singh**  
 B.Tech Computer Science – SRM Institute of Science and Technology
